@@ -1,3 +1,7 @@
 {
-  "name": "anish-some-package"
+  "name": "anish-some-package",
+  "version": "1.0.2",
+  "devDependencies": {
+    "standard-version": "^9.0.0"
+  }
 }
