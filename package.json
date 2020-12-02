@@ -2,7 +2,7 @@
   "name": "anish-some-package",
   "version": "1.0.4",
   "scripts": {
-    "release": "git push --dry-run && standard-version && git push --follow-tags origin master"
+    "release": "git push --dry-run && standard-version && git push --follow-tags origin main"
   },
   "devDependencies": {
     "standard-version": "^9.0.0"
