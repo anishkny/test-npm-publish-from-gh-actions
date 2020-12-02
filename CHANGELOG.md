@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.5](https://github.com/anishkny/test-npm-publish-from-gh-actions/compare/v1.0.4...v1.0.5) (2020-12-02)
+
+
+### Bug Fixes
+
+* Fix release script ([4bdd2f6](https://github.com/anishkny/test-npm-publish-from-gh-actions/commit/4bdd2f665a3053ad64bb679cd7268e623ddd8e03))
+
 ### [1.0.4](https://github.com/anishkny/test-npm-publish-from-gh-actions/compare/v1.0.3...v1.0.4) (2020-12-02)
 
 
