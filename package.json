@@ -1,6 +1,9 @@
 {
   "name": "anish-some-package",
   "version": "1.0.2",
+  "scripts": {
+    "release": "git push --dry-run && npm whoami && standard-version && git push --follow-tags origin master && npm publish"
+  },
   "devDependencies": {
     "standard-version": "^9.0.0"
   }
