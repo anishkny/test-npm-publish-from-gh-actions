@@ -6,7 +6,7 @@ on:
       areYouSure:
         description: "Are you sure? Type YES to proceed"
         required: true
-        default: "NO!"
+        default: "NO"
 
 jobs:
   publish:
@@ -18,6 +18,9 @@ jobs:
         with:
           node-version: 14
           registry-url: "https://registry.npmjs.org"
-      - run: npm whoami
+      - name: Run npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          npm whoami
+          npm publish
